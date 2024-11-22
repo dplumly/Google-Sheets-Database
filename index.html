@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <!-- <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> -->
 
   <title>Google Sheets Prototype 2</title>
   
@@ -12,7 +12,17 @@
   <h1>Save Button Data to Google Sheet 2</h1>
   
 
-  <form id="form" method="POST" action="https://script.google.com/macros/s/AKfycbyj-zkbhD41X2RS_hxsjy2j1pQz8UQ0q0Tg8WqS5DqvFT8EaqPHP1w-JRlxefZZxEI/exec">
+  <form class="form" method="POST" action="https://script.google.com/macros/s/AKfycbyj-zkbhD41X2RS_hxsjy2j1pQz8UQ0q0Tg8WqS5DqvFT8EaqPHP1w-JRlxefZZxEI/exec">
+    <!-- <input name="Email" type="email" placeholder="Email" required>
+    <input name="Name" type="text" placeholder="Name" required> -->
+
+    <input type="radio" name="Selection" value="Button 1"> Button 1</input>
+    <input type="radio" name="Selection" value="Button 2"> Button 2</input>
+    <input type="radio" name="Selection" value="Button 3"> Button 3</input>
+    <button type="submit">Send</button>
+  </form>
+
+  <form class="form" method="POST" action="https://script.google.com/macros/s/AKfycbyj-zkbhD41X2RS_hxsjy2j1pQz8UQ0q0Tg8WqS5DqvFT8EaqPHP1w-JRlxefZZxEI/exec">
     <!-- <input name="Email" type="email" placeholder="Email" required>
     <input name="Name" type="text" placeholder="Name" required> -->
 
