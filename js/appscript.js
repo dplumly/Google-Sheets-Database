@@ -1,3 +1,5 @@
+// Main code from https://github.com/levinunnink/html-form-to-google-sheet
+
 const sheetName = 'Sheet1'
 const scriptProp = PropertiesService.getScriptProperties()
 
